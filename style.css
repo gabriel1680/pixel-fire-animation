@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.main-content {
+  align-self: center;
+  height: fit-content;
+  width: fit-content;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+table td {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1em;
+  position: relative;
+}
+
+.pixel-index {
+  font-size: 0.5em;
+  display: inline-block;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  color: #999;
+}
+
+td.pixel {
+  width: 10px;
+  height: 10px;
+  border: 0px;
+}
